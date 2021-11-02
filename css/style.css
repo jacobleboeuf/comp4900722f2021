@@ -1,0 +1,29 @@
+/**
+ * File: style.css
+ *
+ *
+ * -
+
+ *
+ * -
+ *
+ *
+ * Jacob Leboeuf, UMass Lowell Computer Science, jacob_leboeuf@student.uml.edu,
+ * Copyright (c) 2021 by Jacob. All rights reserved. May be freely copied or
+ * excerpted for educational purposes with credit to the author.
+ * updated by JL on October 24, 2021 at 11:49 PM
+**/
+
+#game {
+      border: solid;
+      margin: auto;
+      height: 800px;
+      width: 650px;
+      margin-top: 1%;
+      background-image: url("../images/titlescreen.png");
+}
+p {
+    font-size: 13px;
+    margin: auto;
+    max-width: 620px;
+}
