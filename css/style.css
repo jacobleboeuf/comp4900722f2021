@@ -17,9 +17,9 @@
 #game {
       border: solid;
       margin: auto;
-      height: 700px;
+      height: 650px;
       width: 650px;
-      margin-top: 1%;
+      margin-top: 0.5%;
       background-image: url("../images/titlescreen.png");
 }
 p {
