@@ -19,11 +19,58 @@
       margin: auto;
       height: 650px;
       width: 650px;
-      margin-top: 5%;
+      margin-top: 0.5%;
       background-image: url("../images/titlescreen.png");
+      background-repeat: no-repeat;
+      background-position: top right;
+      position: relative;
+      text-align: center;
 }
-p {
+.play, .begin {
+    animation: blinker 1s linear infinite;
+    position: absolute;
+    font: 90px Arial, sans-serif;
+    bottom: 0;
+    right: 0;
+    color: purple;
+    font-weight: bold;
+    border: solid;
+    border-radius: 0.5em;
+    background-color: #D3D3D3;
+    padding: 0.5%;
+    margin: 1%;
+    text-decoration: none;
+}
+@keyframes blinker {
+    0% { opacity: 0; }
+}
+#cookies {
     font-size: 13px;
     margin: auto;
     max-width: 620px;
+    font-style: italic;
+}
+li {
+    text-align: center;
+    font-weight: bold;
+    padding: 1%;
+    font-size: 20px;
+}
+p {
+    font-size: 17px;
+}
+h1 {
+    font: 100px Lucida Handwriting;
+    text-align: center;
+    font-weight: bold;
+}
+#rules {
+    color: purple;
+}
+#numLives {
+    text-align: right;
+    font: 80px Arial;
+    margin-right: 50px;
+    margin-top: 0;
+    padding: 10px;
 }
