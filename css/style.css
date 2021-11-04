@@ -15,18 +15,18 @@
 **/
 
 #game {
-      border: solid;
-      margin: auto;
-      height: 650px;
-      width: 650px;
-      margin-top: 0.5%;
-      background-image: url("../images/titlescreen.png");
-      background-repeat: no-repeat;
-      background-position: top right;
-      position: relative;
-      text-align: center;
+    border: solid;
+    margin: auto;
+    height: 650px;
+    width: 650px;
+    margin-top: 0.5%;
+    background-image: url("../images/titlescreen.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+    text-align: center;
 }
-.play, .begin {
+.play, .begin, .submit, .playagain {
     animation: blinker 1s linear infinite;
     position: absolute;
     font: 90px Arial, sans-serif;
@@ -40,6 +40,22 @@
     padding: 0.5%;
     margin: 1%;
     text-decoration: none;
+}
+.submit {
+    font-size: 45px;
+    animation: none;
+}
+.playagain {
+    font-size: 55px;
+}
+.inputTime, .inputTime input {
+  font: 40px Arial, sans-sarif;
+  width: 100px;
+  display: inline;
+  margin-top: 130px;
+  margin-left: 0px;
+  border-radius: 0.5em;
+  text-align: center;
 }
 @keyframes blinker {
     0% { opacity: 0; }
@@ -67,10 +83,34 @@ h1 {
 #rules {
     color: purple;
 }
+#level {
+    text-align: left;
+    position: fixed;
+    font-size: 90px;
+    margin: 0;
+}
 #numLives {
     text-align: right;
     font: 80px Arial;
     margin-right: 50px;
     margin-top: 0;
-    padding: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#directions {
+    font: 35px Arial;
+    text-align: center;
+    margin: 0;
+}
+canvas {
+    position: fixed;
+    margin: 0;
+}
+.time {
+    color: red;
+    font: 40px Arial;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 130px;
+    padding-left: 5px;
 }
