@@ -2,16 +2,18 @@
  * File: style.css
  *
  *
- * -
-
+ * Computer Graphics II Project - Big Brain or LAME?
  *
- * -
+ * - This project uses HTML, CSS, and JavaScript to create a brain teaser game made
+ *   to frustrate and challenge the user.
  *
+ * - This file contains the CSS and uses the existing HTML to make the game
+ *   stylistically pleasing to the user.
  *
  * Jacob Leboeuf, UMass Lowell Computer Science, jacob_leboeuf@student.uml.edu,
  * Copyright (c) 2021 by Jacob. All rights reserved. May be freely copied or
  * excerpted for educational purposes with credit to the author.
- * updated by JL on October 24, 2021 at 11:49 PM
+ * updated by JL on November 5, 2021 at 12:19 AM
 **/
 
 #game {
