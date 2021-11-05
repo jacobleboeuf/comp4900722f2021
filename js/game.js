@@ -126,11 +126,11 @@ function drawTime(ctx, radius, cDate){
     hours = hours % 12;
     hours = (hours * Math.PI / 6) + (minutes * Math.PI / (6 * 60))
     + (seconds * Math.PI / (360 * 60));
-    drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+    drawClockHand(ctx, hours, radius * 0.5, radius * 0.07);
     minutes = (minutes * Math.PI / 30) + (seconds * Math.PI / (30 * 60));
-    drawHand(ctx, minutes, radius * 0.8, radius * 0.07);
+    drawClockHand(ctx, minutes, radius * 0.8, radius * 0.07);
     seconds = (seconds * Math.PI / 30);
-    drawHand(ctx, seconds, radius * 0.9, radius * 0.02);
+    drawClockHand(ctx, seconds, radius * 0.9, radius * 0.02);
 }
 /**
 * drawClockHand(ctx, pos, length, width) - helper function to drawClock that draws the clock hand
