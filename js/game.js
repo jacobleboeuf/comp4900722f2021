@@ -168,8 +168,10 @@ function displayTime() {
     }
     ampm = "AM";
     var hrs = d.getHours();
-    if (hrs >= 12) {
+    if (hrs > 12) {
         hrs -= 12;
+    }
+    if (hrs >= 12) {
         ampm = "PM";
     }
     var hours = hrs.toString();
