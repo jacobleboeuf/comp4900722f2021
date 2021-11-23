@@ -10,10 +10,12 @@
  * - This file contains the CSS and uses the existing HTML to make the game
  *   stylistically pleasing to the user.
  *
+ * - All non-created images used are from clipartmax.com, clipart-library.com, and istockphoto.com
+ *
  * Jacob Leboeuf, UMass Lowell Computer Science, jacob_leboeuf@student.uml.edu,
  * Copyright (c) 2021 by Jacob. All rights reserved. May be freely copied or
  * excerpted for educational purposes with credit to the author.
- * updated by JL on November 19, 2021 at 8:02 PM
+ * updated by JL on November 23, 2021 at 12:09 AM
 **/
 
 #game {
@@ -100,7 +102,7 @@ h1 {
     padding-top: 10px;
     user-select: none;
 }
-#directions, #lev2 {
+#directions, #lev2, #lev3 {
     font: 35px Arial;
     text-align: center;
     margin: 0;
@@ -169,4 +171,20 @@ h1 {
 }
 .math label:last-of-type{
     border-bottom: none;
+}
+#babyTalk p {
+    z-index: 1;
+    user-select: none;
+    color: red;
+    font: 28px Arial;
+    position: absolute;
+    left: 142px;
+    width: 150px;
+    height: 100px;
+    top: 210px;
+    text-align: center;
+}
+#lev3 {
+    user-select: none;
+    margin-left: 50px;
 }
