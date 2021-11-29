@@ -459,7 +459,7 @@ function extendBombString(event) {
         stringHeight = 300 - nPos.y;
         bombStringY = nPos.y;
         // Update time based on string length
-        bombTime = parseInt((stringHeight) / 8);
+        bombTime = parseInt((stringHeight) / 8) - 10;
     }
 }
 /**
@@ -573,9 +573,10 @@ function makeFormWork() {
         (parseInt(answer[5].value) == a6) &&
         (parseInt(answer[6].value) == a7) &&
         (parseInt(answer[7].value) == a8)) {
+         bombTime = 5;
          level3();
      } else {
-         loseBrain();
+         kaboom();
      }
   });
 }
