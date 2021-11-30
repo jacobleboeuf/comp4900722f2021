@@ -620,7 +620,7 @@ function getEventLocation(element,event){
 * level2() - This level has the user complete simple math problems before the canvas
 *            bomb explodes. The only way (unless you're incredibly fast) to do This
 *            is to click and drag on the bomb string flame to give you more time
-*          - Calls helper functions to make bomb, bomb timer, form, and general level1
+*          - Calls helper functions to make bomb, bomb timer, form, and general level2
 *            outline
 */
 function level2() {
